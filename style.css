@@ -1,0 +1,59 @@
+body{
+    background-color:#c8a2c8
+} 
+   .block1 { 
+    width: 200px; 
+    float: left;
+    margin: 12px;
+    display: block;
+    position:relative;
+    text-align: center;
+    }
+   .block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top: 230px;
+    width: 200px;
+    height: 50px;
+    display:none;
+    text-align: center;
+   }
+   .sale{
+    position:absolute;
+    background-color: blueviolet;
+    top: 0px; 
+    padding: 7px; 
+    font-family: Montserrat-Regular; 
+    color: white    
+    }
+   a.view {
+   position: absolute;
+   left:0;
+   bottom:0;
+   right:0;
+   top: 10px;
+   color: black; /* цвет текста */
+   font-family: Montserrat-Regular;
+   font-size: 11pt;
+   text-decoration: none; /* убирать подчёркивание у ссылок */
+   user-select: none; /* убирать выделение текста */
+   background:rgba(255,255,255, 0.7); /* фон кнопки */
+   padding: .7em 1.5em; /* отступ от текста */
+   outline: none; /* убирать контур в Mozilla */
+   } 
+   .block1:hover .block{
+    display:block;
+   }         
+   #scale {
+    transition: 0.5s;
+   }
+   #scale:hover {
+    transform: scale(1.1);
+   } 
+   p{
+     font-family: Montserrat-Regular;
+     font-size: 12pt;
+       
+    }
